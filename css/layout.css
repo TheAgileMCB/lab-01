@@ -1,0 +1,30 @@
+header {
+  height: 75px;
+  background: teal;
+  border-bottom: 3px dashed white;
+}
+
+#site-nav {
+  height: 150px;
+  background: pink;
+}
+
+section {
+  height: 125px;
+  background: yellow;
+  border: 1px double blue;
+}
+
+article {
+  height: 250px;
+  width: 240px;
+  background: orange;
+  border: 1px double blue;
+  float: left;
+}
+
+footer {
+height: 80px;
+background: turquoise;
+clear: both;
+}

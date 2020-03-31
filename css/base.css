@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 480px;
+}
+
+h1 {
+  text-align: center;
+}
+
+header h1 {
+  line-height: 75px;
+}
+
+#site-nav h1 {
+  line-height: 150px;
+}
+
+section h1 {
+  line-height: 125px;
+}
+
+article h1 {
+  line-height: 250px;
+}
+
+footer {
+  line-height: 80px;
+}
