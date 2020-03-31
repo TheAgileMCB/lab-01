@@ -1,0 +1,88 @@
+@media (max-width: 479px) {
+  header {
+    width: 100%;
+    background: red;
+  }
+  
+  #site-nav {
+    width: 100%;
+    background: brown;
+  }
+  
+  section {
+    width: 100%;
+    background: burlywood;
+  }
+  
+  article {
+    width: 50%;
+    background: orchid;
+  }
+  
+  footer {
+  width: 100%;
+  background: red;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 960px;
+  }
+
+  header {
+    width: 960px;
+    height: 100px;
+    background: green;
+  }
+  
+  #site-nav {
+    float: left;
+    height: 600px;
+    width:200px;
+    background: greenyellow;
+  }
+  
+  section {
+    float: left;
+    height: 200px;
+    width: 380px;
+    background: olive;
+    border: 2px double white;
+  }
+  
+  article {
+    height: 250px;
+    width: 190px;
+    background: floralwhite;
+    border: 2px double green;
+  }
+  
+  footer {
+  clear: none;
+  float: left;
+  height: 150px;
+  width: 760px;
+  background: green;
+  }
+
+  header h1 {
+    line-height: 100px;
+  }
+
+  #site-nav h1 {
+    line-height: 600px;
+  }
+
+  section h1 {
+    line-height: 200px;
+  }
+  
+  article h1 {
+    line-height: 250px;
+  }
+
+  footer {
+    line-height: 150px;
+  }
+}
