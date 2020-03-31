@@ -34,6 +34,7 @@
     width: 960px;
     height: 100px;
     background: green;
+    line-height: 100px;
   }
   
   #site-nav {
@@ -41,6 +42,7 @@
     height: 600px;
     width:200px;
     background: greenyellow;
+    line-height: 600px;
   }
   
   section {
@@ -49,6 +51,7 @@
     width: 380px;
     background: olive;
     border: 2px double white;
+    line-height: 200px;
   }
   
   article {
@@ -56,33 +59,15 @@
     width: 190px;
     background: floralwhite;
     border: 2px double green;
-  }
-  
-  footer {
-  clear: none;
-  float: left;
-  height: 150px;
-  width: 760px;
-  background: green;
-  }
-
-  header h1 {
-    line-height: 100px;
-  }
-
-  #site-nav h1 {
-    line-height: 600px;
-  }
-
-  section h1 {
-    line-height: 200px;
-  }
-  
-  article h1 {
     line-height: 250px;
   }
-
+  
   footer {
+    clear: none;
+    float: left;
+    height: 150px;
+    width: 760px;
+    background: green;
     line-height: 150px;
   }
 }
