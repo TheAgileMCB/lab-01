@@ -28,3 +28,27 @@ height: 80px;
 background: turquoise;
 clear: both;
 }
+
+h1 {
+  text-align: center;
+}
+
+header h1 {
+  line-height: 75px;
+}
+
+#site-nav h1 {
+  line-height: 150px;
+}
+
+section h1 {
+  line-height: 125px;
+}
+
+article h1 {
+  line-height: 250px;
+}
+
+footer {
+  line-height: 80px;
+}
