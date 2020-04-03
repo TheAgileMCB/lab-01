@@ -2,8 +2,6 @@ body {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 7.109004739% 14.218009478% 71.090047393% 7%;
- 
-
 }
 
 .header {
@@ -11,12 +9,18 @@ body {
   background: lightcoral;
   grid-column: 1 / 5;
   grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  
 }
 .nav {
   grid-area: nav;
   background: lightskyblue;
   grid-column: 1 / 5;
   grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  
 }
 .main {
   width: 100%;
@@ -31,14 +35,21 @@ body {
   background: lightcoral;
   grid-column: 1 / 5;
   grid-row: 4 / 5;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .section{
   background: lightgreen;
+  display: flex;
+justify-content: center;
 }
 
 .article {
   background: lightgoldenrodyellow;
+  display: flex;
+justify-content: center;
 }
 
 .s1 {
@@ -73,8 +84,7 @@ body {
 
 h1 {
 display: flex;
-justify-content: center;
-align-content: center;
+align-self: center;
 }
 
 
@@ -100,5 +110,12 @@ header, nav, section, article, footer {
 
   .footer {
     grid-column: 2 / 5;
+  }
+}
+
+@media (min-width: 800px) {
+
+  body {
+    max-width: 1500px;
   }
 }
